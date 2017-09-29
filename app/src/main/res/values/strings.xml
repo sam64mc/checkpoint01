@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Checkpoint1sam64mc</string>
+    <string name="nom">Nom*</string>
+    <string name="prenom">Prénom*</string>
+    <string name="ecole">Ecole*</string>
+    <string name="langage">Langage étudié*</string>
+    <string name="boutonEnvoyer">Envoyer</string>
+    <string name="title_activity_student">StudentActivity</string>
+</resources>

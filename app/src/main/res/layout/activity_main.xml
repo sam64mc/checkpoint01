@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam.checkpoint1sam64mc.MainActivity">
+
+    <EditText
+        android:id="@+id/nom"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nom"
+         />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/prenom"
+        />
+
+    <EditText
+        android:id="@+id/ecole"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ecole"
+        />
+
+    <EditText
+        android:id="@+id/langage"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/langage"
+        />
+
+    <Button
+        android:id="@+id/boutonEnvoyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boutonEnvoyer" />
+
+
+</LinearLayout>
